@@ -1,0 +1,33 @@
+
+
+
+atssa@LAPTOP-8009IVFN MINGW64 ~/OneDrive/Documentos/DIO/Bootcamps/GitHub - Primeiro Repositório (master)
+$ cd dio-desafio-github-primeiro-repositorio
+
+atssa@LAPTOP-8009IVFN MINGW64 ~/OneDrive/Documentos/DIO/Bootcamps/GitHub - Primeiro Repositório/dio-desafio-github-primeiro-repositorio (main)
+$ dir
+README.md
+
+
+*******($ git init)
+
+$ git status
+// fica em vermelho
+$ git add .
+
+$ git status
+//Já fica verde
+
+$ git init
+
+$ git commit -m "Inclusão das atualizações do curso de Git/GitHub"
+
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 491 bytes | 122.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ats70/dio-desafio-github-primeiro-repositorio.git
+   d149591..bc269bd  main -> main
